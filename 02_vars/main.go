@@ -7,12 +7,14 @@ func main() {
 	// const name := "Huda"
 	// weight := 1.9
 
-	const name = "Huda"
-	var age = "17"
-	var isCool = false
+	// const name = "Huda"
+	// var age = "17"
+	// var isCool = false
 
-	// Cast the type
-	isCool = true
+	// isCool = true
+
+	// Shorthand
+	name, age, isCool := "Huda", 17, true
 
 	fmt.Println(name, age, isCool)
 	fmt.Printf("%T\n", isCool)
